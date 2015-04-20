@@ -1,0 +1,16 @@
+{
+  "name": "otherModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "comments": {
+      "type": "hasMany",
+      "model": "comment",
+      "polymorphic": "commentable"
+    }
+  },
+  "acls": [],
+  "methods": []
+}
